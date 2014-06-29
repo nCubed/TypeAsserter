@@ -6,12 +6,12 @@
         <title>TypeAsserter</title>
         <authors>Kindler Chase</authors>
         <owners>Kindler Chase</owners>
-        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
-        <projectUrl>https://github.com/nCubed/</projectUrl>
-        <requireLicenseAcceptance>no</requireLicenseAcceptance>
-        <description>Unit test tools for class and type declarations.</description>
-        <summary>Unit test tools for class and type declarations.</summary>
-        <tags>UnitTest UnitTests UnitTesting MSTest TDD Unit-Test Unit-Tests Unit-Testing</tags>
+        <licenseUrl>https://github.com/nCubed/TypeAsserter/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/nCubed/TypeAsserter</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A micro-framework for unit testing class and type declarations.</description>
+        <summary>A micro-framework for unit testing class and type declarations.</summary>
+        <tags>UnitTest UnitTests UnitTesting MSTest TDD Unit-Test Unit-Tests Unit-Testing Type TypeAssert</tags>
         <frameworkAssemblies>
             <frameworkAssembly assemblyName="System"/>
             <frameworkAssembly assemblyName="System.Core"/>
@@ -21,4 +21,9 @@
             * 0.5   - Initial release of TypeAsserter.
         </releaseNotes>
     </metadata>
+    <files>
+        <file src="TypeAsserter\bin\Release\TypeAsserter.dll" target="lib\net40" />
+        <file src="TypeAsserter\bin\Release\TypeAsserter.pdb" target="lib\net40" />
+        <file src="TypeAsserter\bin\Release\TypeAsserter.xml" target="lib\net40" />
+    </files>
 </package>
