@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeAsserter", "TypeAsserter\TypeAsserter.csproj", "{369DD23B-2D33-44D2-8FDF-9F2E08D4976D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeAsserter.UnitTests", "TypeAsserter.UnitTests\TypeAsserter.UnitTests.csproj", "{F7749A81-E473-40BA-9C96-04FA4ECFEA5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{369DD23B-2D33-44D2-8FDF-9F2E08D4976D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369DD23B-2D33-44D2-8FDF-9F2E08D4976D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369DD23B-2D33-44D2-8FDF-9F2E08D4976D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369DD23B-2D33-44D2-8FDF-9F2E08D4976D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7749A81-E473-40BA-9C96-04FA4ECFEA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7749A81-E473-40BA-9C96-04FA4ECFEA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7749A81-E473-40BA-9C96-04FA4ECFEA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7749A81-E473-40BA-9C96-04FA4ECFEA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
