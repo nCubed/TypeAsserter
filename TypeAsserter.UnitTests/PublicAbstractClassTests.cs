@@ -28,7 +28,7 @@ namespace TypeAsserter.UnitTests
         [ExpectedException( typeof( AssertFailedException ) )]
         public void PublicAbstractClass_IsStatic_Fails()
         {
-            AssertClass.IsStatic( typeof( PublicAbstractClass ), ClassVisbility.Public );
+            AssertClass.IsStatic( typeof( PublicAbstractClass ), ClassVisibility.Public );
         }
 
         [TestMethod]

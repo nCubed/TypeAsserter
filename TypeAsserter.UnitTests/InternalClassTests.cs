@@ -34,7 +34,7 @@ namespace TypeAsserter.UnitTests
         [ExpectedException( typeof( AssertFailedException ) )]
         public void InternalClass_IsStatic_Fails()
         {
-            AssertClass.IsStatic( typeof( InternalClass ), ClassVisbility.Public );
+            AssertClass.IsStatic( typeof( InternalClass ), ClassVisibility.Public );
         }
 
         [TestMethod]

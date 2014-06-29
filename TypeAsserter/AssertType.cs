@@ -85,15 +85,15 @@ namespace TypeAsserter
             Assert.IsTrue( isInterface );
         }
 
-        internal static void Visibility( Type type, ClassVisbility visbility )
+        internal static void Visibility( Type type, ClassVisibility visibility )
         {
-            switch( visbility )
+            switch( visibility )
             {
-                case ClassVisbility.Public:
+                case ClassVisibility.Public:
                     IsPublic( type );
                     break;
 
-                case ClassVisbility.Internal:
+                case ClassVisibility.Internal:
                     IsInternal( type );
                     break;
                 default:

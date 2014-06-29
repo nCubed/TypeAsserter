@@ -13,8 +13,8 @@ namespace TypeAsserter
         /// Verifies that the specified class is static.
         /// </summary>
         /// <param name="type">the type of class.</param>
-        /// <param name="visbility">the expected visibility of the class.</param>
-        public static void IsStatic( Type type, ClassVisbility visbility )
+        /// <param name="visibility">the expected visibility of the class.</param>
+        public static void IsStatic( Type type, ClassVisibility visibility )
         {
             bool isStatic = type.IsAbstract && type.IsSealed;
 
@@ -24,7 +24,7 @@ namespace TypeAsserter
 
             Assert.AreEqual( 0, ctors.Length );
 
-            AssertType.Visibility( type, visbility );
+            AssertType.Visibility( type, visibility );
         }
     }
 }

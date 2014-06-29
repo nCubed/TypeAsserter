@@ -3,7 +3,7 @@
     /// <summary>
     /// Enum to specifiy the visibility of a class when unit testing.
     /// </summary>
-    public enum ClassVisbility
+    public enum ClassVisibility
     {
         Public,
         Internal,

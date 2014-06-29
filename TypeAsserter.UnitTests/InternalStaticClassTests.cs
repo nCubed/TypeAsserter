@@ -9,14 +9,14 @@ namespace TypeAsserter.UnitTests
         [TestMethod]
         public void InternalStaticClass_IsStatic()
         {
-            AssertClass.IsStatic( typeof( InternalStaticClass ), ClassVisbility.Internal );
+            AssertClass.IsStatic( typeof( InternalStaticClass ), ClassVisibility.Internal );
         }
 
         [TestMethod]
         [ExpectedException( typeof( AssertFailedException ) )]
         public void InternalStaticClass_IsStatic_PublicVisibilty_Fails()
         {
-            AssertClass.IsStatic( typeof( InternalStaticClass ), ClassVisbility.Public );
+            AssertClass.IsStatic( typeof( InternalStaticClass ), ClassVisibility.Public );
         }
     }
 }

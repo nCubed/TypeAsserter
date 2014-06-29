@@ -44,7 +44,7 @@
     <Compile Include="AssertClass.cs" />
     <Compile Include="AssertClassOfT.cs" />
     <Compile Include="AssertType.cs" />
-    <Compile Include="ClassVisbility.cs" />
+    <Compile Include="ClassVisibility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

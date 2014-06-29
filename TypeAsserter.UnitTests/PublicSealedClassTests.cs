@@ -34,7 +34,7 @@ namespace TypeAsserter.UnitTests
         [ExpectedException( typeof( AssertFailedException ) )]
         public void PublicSealedClass_IsStatic_Fails()
         {
-            AssertClass.IsStatic( typeof( PublicSealedClass ), ClassVisbility.Public );
+            AssertClass.IsStatic( typeof( PublicSealedClass ), ClassVisibility.Public );
         }
 
         [TestMethod]
