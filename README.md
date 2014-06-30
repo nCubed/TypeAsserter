@@ -13,16 +13,20 @@ Simply add `TypeAsserter` to your Unit Test project through the Visual Studio Nu
 
 ###Examples
 
-Let's say you have a public class named `MyFoo` that is sealed and implements the `IFoo` interface:
+Let's say you have an internal class named `MyFoo` that is sealed and implements the `IFoo` interface:
 
 ```csharp
+// example class with interface
+internal sealed class MyFoo : IFoo { }
+
+// Unit Tests verifying the MyFoo type
 [TestClass]
 public class MyTests
 {
     [TestMethod]
     public void MyFoo_TypeDeclarations()
     {
-        AssertClass<MyFoo>.IsPublic();
+        AssertClass<MyFoo>.IsInternal();
         AssertClass<MyFoo>.IsSealed();
         AssertClass<MyFoo>.ImplementsInterface<IFoo>();
     }
