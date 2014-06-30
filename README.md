@@ -54,6 +54,6 @@ AssertClass<T>.InheritsAbstractBaseClass<TAbstractClass>();
 AssertClass<T>.ImplementsInterface<TInterface>();
 
 // static classes cannot be used as generic constraints so you must pass in the
-// type to the IsStatic method, i.e., typeof( MyFoo, ClassVisibility.Public )
+// type to the IsStatic method, i.e., typeof( MyFoo )
 AssertClass.IsStatic( Type type, ClassVisibility visibility );
 ```
