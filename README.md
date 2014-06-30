@@ -36,7 +36,7 @@ public class MyTests
     public void MyFoo_IsStatic_Fails()
     {
         // Here we are ensuring MyFoo is not static
-        AssertClass.IsStatic( typeof( MyFoo ), ClassVisibility.Public );
+        AssertClass.IsStatic( typeof( MyFoo ), ClassVisibility.Internal );
     }
 }
 
